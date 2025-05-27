@@ -64,12 +64,12 @@
     overflow: hidden;
 }
 
-.woosq-product > .product {
+.woosq-product>.product {
     display: flex !important;
     float: none !important;
 }
 
-.woosq-product > .product > div {
+.woosq-product>.product>div {
     width: 50% !important;
     float: none !important;
     margin: 0 !important;
@@ -256,7 +256,7 @@
     content: '\e92a';
 }
 
-.woosq-product > .product .summary {
+.woosq-product>.product .summary {
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -376,7 +376,7 @@
     background-color: #5fbd74;
 }
 
-.woosq-product > .product .summary .summary-content {
+.woosq-product>.product .summary .summary-content {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -384,7 +384,7 @@
     padding: 20px;
 }
 
-.woosq-popup.view-details .woosq-product > .product .summary .summary-content {
+.woosq-popup.view-details .woosq-product>.product .summary .summary-content {
     padding-bottom: 64px;
 }
 
@@ -413,19 +413,19 @@ body.rtl .mfp-woosq .mfp-close {
         overflow-y: auto;
     }
 
-    .woosq-product > .product {
+    .woosq-product>.product {
         display: flex;
         flex-direction: column;
     }
 
-    .woosq-product > .product > div {
+    .woosq-product>.product>div {
         width: 100% !important;
         float: none !important;
         margin: 0 !important;
         height: auto;
     }
 
-    .woosq-product > .product .thumbnails {
+    .woosq-product>.product .thumbnails {
         max-height: 338px;
     }
 
@@ -761,9 +761,7 @@ body.rtl .mfp-woosq .mfp-close {
     /* animate out */
 }
 
-.mfp-move-from-top .mfp-content {
-
-}
+.mfp-move-from-top .mfp-content {}
 
 .mfp-move-from-top .mfp-with-anim {
     opacity: 0;
@@ -996,12 +994,12 @@ body.woosq-open .woosq-overlay, body.woosq-open .woosq-sidebar {
     overflow-y: auto;
 }
 
-.woosq-sidebar .woosq-product > .product {
+.woosq-sidebar .woosq-product>.product {
     display: flex;
     flex-direction: column;
 }
 
-.woosq-sidebar .woosq-product > .product > div {
+.woosq-sidebar .woosq-product>.product>div {
     width: 100% !important;
     float: none !important;
     margin: 0 !important;
